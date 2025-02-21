@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400, 500, 600, 700, 800, 900");
+
+:root {
+    --primary-color: #ff511a;
+    --secondary-color: #09f5be;
+    --text-color: #212741;
+    --bg-color: #fff;
+    --link-color: #e36402;
+    --dark-bg-color: #181d30;
+
+}
+
+body {
+    background: var(--bg-color);
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(90, 99, 109);
+}
+
+a {
+    text-decoration: line-through;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo img {
+    height: 5rem;
+    border-radius: 50%;
+
+
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem;
+    color: #181d30;
+}
+
+.navlist li {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+    white-space: nowrap;
+}
+
+.navlist li a {
+    color: var(--bg-color);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #212741;
+}
+
+
+
+/* h1 {
+    color: var(--primary-color);
+    --secondary-color: #e9f509;
+}
+
+p {
+    background-color: var(--primary-color);
+} */
